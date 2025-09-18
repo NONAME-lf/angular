@@ -1,0 +1,24 @@
+$border-color: #596780;
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.btn-wrapper {
+    display: flex;
+    gap: 20px;
+}
+
+.btn {
+    text-decoration: none;
+    border: 1px solid rgba(195, 212, 233, 0.40);
+    border-radius: 50%;
+    width: 44px;
+    height: 44px;
+}
+
+.btn:last-child {
+    vertical-align: bottom;
+}

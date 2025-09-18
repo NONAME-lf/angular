@@ -1,0 +1,19 @@
+$border-color: #596780;
+
+
+input {
+    border: 1px solid rgba($color: $border-color, $alpha: 0.4);
+    border-radius: 70px;
+    height: 44px;
+    width: 100%;
+    padding: 0 10px;
+
+    color: #596780;
+    text-align: justify;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+    letter-spacing: -0.0175rem;
+}
