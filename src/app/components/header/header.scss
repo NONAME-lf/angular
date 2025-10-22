@@ -1,9 +1,23 @@
+@use '../../../variables.scss' as *;
+
 $border-color: #596780;
+
+
+:host {
+    display: block;
+    height: 80px;
+    border: 1px solid rgba($color: $border-color, $alpha: 0.4);
+}
 
 .container {
     display: flex;
     align-items: center;
     justify-content: space-between;
+
+    .img-wrap {
+        aspect-ratio: unset;
+        width: 100px;
+    }
 }
 
 .btn-wrapper {

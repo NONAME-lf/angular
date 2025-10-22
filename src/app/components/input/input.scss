@@ -1,5 +1,9 @@
-$border-color: #596780;
+@use "../../../variables.scss" as *;
 
+:host {
+    max-width: 492px;
+    width: 100%;
+}
 
 input {
     border: 1px solid rgba($color: $border-color, $alpha: 0.4);

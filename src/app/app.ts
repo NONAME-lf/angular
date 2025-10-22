@@ -1,10 +1,11 @@
 import { Component, signal } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { Header } from './components/header/header';
+import { Card } from './components/card/card';
 
 @Component({
   selector: 'morent-root',
-  imports: [RouterOutlet, Header],
+  imports: [RouterOutlet, Header, Card],
   templateUrl: './app.html',
   styleUrl: './app.scss',
 })

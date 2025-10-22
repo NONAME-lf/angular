@@ -1,1 +1,31 @@
-<p>card works!</p>
+<div class="card">
+    <a href="#" class="card-link">
+        <div class="card-header">
+            @if(car().model){
+            <hgroup>
+                <h2>{{car()?.make}} {{car()?.model}}</h2>
+                <p>{{car()?.class}}</p>
+            </hgroup>
+            }
+            @else{
+            <h2>Loading...</h2>
+            }
+        </div>
+        <div class="card-body">
+            <div class="img-wrap">
+                <img src="/assets/img/No-Image.jpg" alt="">
+            </div>
+            <ul class="param-list">
+                <li>{{car()?.fuel_type}}</li>
+                <li>{{car()?.transmission}}</li>
+                <li>{{car()?.drive}}</li>
+            </ul>
+        </div>
+        <div class="card-footer">
+            <div class="price">
+                <span class="num">{{car()?.price}}</span>/day
+            </div>
+            <a href="#" class="btn">Rent Now</a>
+        </div>
+    </a>
+</div>

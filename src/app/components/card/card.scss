@@ -1,0 +1,84 @@
+:host {
+    display: inline-block;
+    color: #d1d1d1;
+    background-color: #1E3E62;
+    border-radius: 10px;
+    padding: 24px;
+    width: max-content;
+
+    .card-header {
+        text-transform: capitalize;
+
+        hgroup {
+            display: flex;
+            gap: 4px;
+            flex-direction: column;
+
+            h2 {
+                font-size: 1.25rem;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 150%;
+                letter-spacing: -0.0375rem;
+            }
+
+            p {
+                color: #8896bf;
+                font-size: 0.875rem;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 150%;
+                letter-spacing: -0.0175rem;
+            }
+        }
+
+        margin-bottom: 37px;
+    }
+
+    .card-body {
+        margin-bottom: 36px;
+
+        .img-wrap {
+            background: linear-gradient(180deg, rgba(255, 255, 255, 0.00) 0%, #FFF 100%);
+            max-width: unset;
+            width: 100%;
+            overflow: hidden;
+            aspect-ratio: 3;
+            margin-bottom: 28px;
+        }
+
+        .param-list {
+            display: flex;
+            gap: 17px;
+            justify-content: space-between;
+
+            li {
+                color: #8896bf;
+                font-size: 0.875rem;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 150%;
+                letter-spacing: -0.0175rem;
+                text-transform: capitalize;
+            }
+        }
+    }
+
+    .card-footer {
+        color: #8896bf;
+        font-size: 0.875rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        display: flex;
+        justify-content: space-between;
+
+        .num {
+            color: #000;
+            font-size: 1.25rem;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+        }
+    }
+}
