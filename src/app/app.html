@@ -1,5 +1,6 @@
 <morent-header [headerTitle]="title" (userClick)="onUserClick()"></morent-header>
 <div class="container">
+    <router-outlet />
     <ul class="card-list">
         <li>
             <morent-card></morent-card>
@@ -14,5 +15,5 @@
             <morent-card></morent-card>
         </li>
     </ul>
+
 </div>
-<router-outlet />

@@ -1,9 +1,10 @@
 import { Component, signal, inject } from '@angular/core';
 import { CarsApiService } from 'src/app/services/cars-api.service';
+import { RouterLink, RouterOutlet } from '@angular/router';
 
 @Component({
   selector: 'morent-card',
-  imports: [],
+  imports: [RouterLink, RouterOutlet],
   templateUrl: './card.html',
   styleUrl: './card.scss',
 })
