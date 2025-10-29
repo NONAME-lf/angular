@@ -66,3 +66,13 @@ body {
     aspect-ratio: 4/3;
     max-width: 280px;
 }
+
+.btn[routerLink] {
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    background-color: #3563E9;
+    color: #fff;
+    min-height: 44px;
+    border-radius: 4px;
+}
